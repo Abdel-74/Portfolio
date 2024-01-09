@@ -1,0 +1,30 @@
+/*@import './base.css';*/
+
+body { 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+section {
+  flex: 1;
+  background-color: #fff;
+  margin: 0 0 20px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+section:target{
+  padding-top: 200px;
+  margin-top: 0;
+}
